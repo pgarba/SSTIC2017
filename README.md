@@ -16,4 +16,4 @@ __________     ___________              ________      _____________.
 */
 
 
-This repo contains my solution for the sstic 2017 challange
+This repo contains my solution for the sstic 2017 challenge
