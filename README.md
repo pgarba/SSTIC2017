@@ -31,9 +31,9 @@ Day 2 - Riscy Zones
 	- Translate RISC-V opcodes to simple C code ... (Recovered_Unoptimized_TA_Code)
 		- The idea is that compiler optimization will help us to reduce the code and make it more readable
 	- Disassemble the optimized code with IDA and use the decompiler to get it in C
-	- Optimize/Deobfuscate the left code by hand to make it readable and performant ;)
-	- Prepare the code to be attacked with symbolic execution (triton/klee) (RZ_Attack)
-		- On the SSTIC challenge I used triton for that but after the challaenge I had some time to play with klee and noticed that it outperfoms triton a lot and is much easier to use if you go for source code recovery
+	- Optimize/Deobfuscate the left code by hand to make it readable and more in shape for the attack
+		- Prepare the code to be attacked with symbolic execution (triton/klee) (RZ_Attack)
+		- On the SSTIC challenge I used triton for that but after the challenge I had some time to play with klee and noticed that it outperfoms triton a lot and is much easier to use if you go for source code recovery
 	- Code the needed triton part (TritonSolverCode)		
 		- Triton takes about 5 minutes and ~3GB of memory on my machine (Intel 6700k 32GB RAM)
 		- Klee does the same job in under 1 second with much less memory (klee_solution)
