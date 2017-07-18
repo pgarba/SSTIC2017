@@ -1,0 +1,67 @@
+/*
+  _________ ____________________.____________   _______________  _____________ 
+ /   _____//   _____/\__    ___/|   \_   ___ \  \_____  \   _  \/_   \______  \
+ \_____  \ \_____  \   |    |   |   /    \  \/   /  ____/  /_\  \|   |   /    /
+ /        \/        \  |    |   |   \     \____ /       \  \_/   \   |  /    / 
+/_______  /_______  /  |____|   |___|\______  / \_______ \_____  /___| /____/  
+        \/        \/                        \/          \/     \/              
+__________     ___________              ________      _____________.           
+\______   \ ___\__    ___/__________   /  _____/_____ \______   \_ |__ _____   
+ |     ___// __ \|    |_/ __ \_  __ \ /   \  ___\__  \ |       _/| __ \\__  \  
+ |    |   \  ___/|    |\  ___/|  | \/ \    \_\  \/ __ \|    |   \| \_\ \/ __ \_
+ |____|    \___  >____| \___  >__|     \______  (____  /____|_  /|___  (____  /
+               \/           \/                \/     \/       \/     \/     \/ 
+	Peter Garba (c) 2017
+*/
+
+RiscyZone:
+
+[OK] Key "TA_HMAC_KEY" stored in TEE keystore                                   
+[OK] loadKey: 'TA_HMAC_KEY' Value: '73,39,109,32,97,110,32,97,112,112,114,111,11
+7,118,101,100,32,84,65,32,98,117,105,108,100,101,114,32,33' 
+
+= I'm an approuved TA builder !
+
+getKey: 'SSTIC_AES_KEY' 
+getKey: 'SSTIC_PASSWORD_HMAC_KEY'
+ 
+[OK] loadKey: 'SSTIC_CUSTOM_KEY' Value: '0,17,34,51,68,85,102,119,136,153,170,18
+7,204,221,238,255' 
+
+[OK] loadKey: 'SSTIC_AES_KEY' Key: '95,95,95,83,83,84,73,67,95,50,48,49,55,95,95,95'   
+
+'SSTIC_PASSWORD_HMAC_KEY' Key: '76,85,77,123,48,113,118,89,72,58,81,73,63,75,54,125'
+
+LUM{0qvYH:QI?K6}
+
+325B45C
+
+325A98C
+
+TA_HMAC_KEY:
+I'm an approuved TA builder !
+
+SSTIC_CUSTOM_KEY:
+"3DUfw��������
+
+SSTIC_AES_KEY:
+___SSTIC_2017___
+
+SSTIC_PASSWORD_HMAC_KEY:
+LUM{0qvYH:QI?K6}
+
+TA LUM:
+LUM{gdN8.D*@+UV}
+
+HMAC check:
+300357 + 851, 468290 + 67, 415559+885, 328722+100, 198498+80, 201443+46#
+
+Password1_known:
+==BEGIN PASSWORD HMAC==
+4bcea2ecf77bda18804b395a5b0a81c9c745b5add567073c3afb4ec5e7a478fa
+==END PASSWORD HMAC==
+
+PasswordSecret:
+==BEGIN PASSWORD HMAC==
+504861089d10a8d5900cdf3bad962004282e73c20d2d5ab95b67ae6b3356748b
+==END PASSWORD HMAC==
