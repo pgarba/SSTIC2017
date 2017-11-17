@@ -1,0 +1,69 @@
+In:
+High 0x444c4f47
+Low  0x54534946
+
+A = (0x54534946 + ((0x54534946 << 4) ^ (0x54534946 >> 5))) = 0x9be95770
+C = 0x9AACC69B ^ A           = 0x014591eb
+NR = C + 0x444c4f47;         = 0x4591e132
+High = 0x54534946            = 0x54534946
+Low = NR                     = 0x4591e132
+
+Out:
+High = 0x54534946
+Low = 0x4591e132
+
+NR  = Low                    = 0x4591e132
+Low = High                   = 0x54534946
+
+A   = (Low + ((Low << 4) ^ (Low >> 5))) = 0x9be95770
+C   = 0x9AACC69B ^ A
+NR  = NR - C
+
+
+%ífeÐµ
+
+Start:
+rcx = fa34ae1002547b89
+rdx = 756af83de1ffe263
+
+rdx = not rdx // rdx = Not 8a9507c21e001d9c
+bswap rcx // rcx = bswap fa34ae1002547b89
+
+//Part of output
+r8, [rax] = 16359c65c39e3de1
+
+xor r8, rcx // 16359c65c39e3de1 ^ 897b540210ae34fa
+add r8, rcx // 9f4ec867d330091b + 8a9507c21e001d9c
+
+[rax] = r8
+//Next 8 Byte
+add eax, 8
+
+mov r8, [eax] = 6f8e1e90c21df5d8
+xor r8, rdx //6f8e1e90c21df5d8 ^ 8a9507c21e001d9c
+bswap r8 // bswap e51b1952dc1de844
+sub r8, rcx // 44e81ddc52191be5 - 897b540210ae34fa
+[rax] = r8
+
+//Next one
+add rax, 8
+
+mov r8, [rax] = 82d2bf5944540f2d
+bswap r8 // bwsap 82d2bf5944540f2d
+rol rcx, 0x0D // rol 897b540210ae34fa, 0x0D = 6a804215c69f512f
+ror r8, cl // ror 2d0f544459bfd282, 2f = a888b37fa5045a1e
+mov [rax] , r8
+
+//next one
+add rax, 8 //0x16359c65c39e3de1
+mov r8, [rax] //0x7cb5de7005016cce
+xor r8, rcx // 6ab7399f32b151da ^ 6a804215c69f512f
+ror rdx, 0x15 // ror 8a9507c21e001d9c , 0x15 = ece454a83e10f0
+xchg rdx, rcx
+ror r8, cl // ror 377b8af42e00f5, 0xF0
+add r8, rdx // 7b8af42e00f50037 + 6a804215c69f512f
+mov [rax], r8 // [eax] = 0x16359c65c39e3de1
+
+
+
+1111111111111111111111111111111

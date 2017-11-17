@@ -1,0 +1,308 @@
+int calc2()
+{
+  unsigned int v0; // esi@1
+  unsigned int v1; // edx@1
+  unsigned int v2; // esi@1
+  unsigned int v3; // edx@1
+  unsigned int v4; // esi@1
+  unsigned int v5; // edx@1
+  unsigned int v6; // esi@1
+  unsigned int v7; // edx@1
+  unsigned int v8; // esi@1
+  unsigned int v9; // edx@1
+  unsigned int v10; // esi@1
+  unsigned int v11; // edx@1
+  unsigned int v12; // esi@1
+  unsigned int v13; // edx@1
+  unsigned int v14; // esi@1
+  unsigned int v15; // edx@1
+  unsigned int v16; // esi@1
+  unsigned int v17; // edx@1
+  unsigned int v18; // esi@1
+  unsigned int v19; // edx@1
+  unsigned int v20; // esi@1
+  unsigned int v21; // edx@1
+  unsigned int v22; // esi@1
+  unsigned int v23; // edx@1
+  unsigned int v24; // esi@1
+  unsigned int v25; // edx@1
+  unsigned int v26; // esi@1
+  unsigned int v27; // edx@1
+  unsigned int v28; // esi@1
+  unsigned int v29; // edx@1
+  unsigned int v30; // esi@1
+  unsigned int v31; // edx@1
+  unsigned int v32; // esi@1
+  unsigned int v33; // edx@1
+  unsigned int v34; // esi@1
+  unsigned int v35; // edx@1
+  unsigned int v36; // esi@1
+  unsigned int v37; // edx@1
+  unsigned int v38; // esi@1
+  unsigned int v39; // edx@1
+  unsigned int v40; // esi@1
+  unsigned int v41; // edx@1
+  unsigned int v42; // esi@1
+  unsigned int v43; // edx@1
+  unsigned int v44; // esi@1
+  unsigned int v45; // edx@1
+  unsigned int v46; // esi@1
+  unsigned int v47; // edx@1
+  unsigned int v48; // esi@1
+  unsigned int v49; // edx@1
+  unsigned int v50; // esi@1
+  unsigned int v51; // edx@1
+  unsigned int v52; // esi@1
+  unsigned int v53; // edx@1
+  unsigned int v54; // esi@1
+  unsigned int v55; // edx@1
+  unsigned int v56; // esi@1
+  unsigned int v57; // edx@1
+  unsigned int v58; // esi@1
+  unsigned int v59; // edx@1
+  unsigned int v60; // esi@1
+  unsigned int v61; // edx@1
+  unsigned int v62; // esi@1
+  unsigned int v63; // edx@1
+  unsigned int v64; // esi@1
+  unsigned int v65; // edx@1
+  unsigned int v66; // esi@1
+  unsigned int v67; // edx@1
+  unsigned int v68; // esi@1
+  unsigned int v69; // edx@1
+  unsigned int v70; // esi@1
+  unsigned int v71; // edx@1
+  unsigned int v72; // esi@1
+  unsigned int v73; // edx@1
+  unsigned int v74; // esi@1
+  unsigned int v75; // edx@1
+  unsigned int v76; // esi@1
+  unsigned int v77; // edx@1
+  unsigned int v78; // esi@1
+  unsigned int v79; // edx@1
+  unsigned int v80; // esi@1
+  unsigned int v81; // edx@1
+  unsigned int v82; // esi@1
+  unsigned int v83; // edx@1
+  unsigned int v84; // esi@1
+  unsigned int v85; // edx@1
+  unsigned int v86; // esi@1
+  unsigned int v87; // edx@1
+  unsigned int v88; // esi@1
+  unsigned int v89; // edx@1
+  unsigned int v90; // esi@1
+  unsigned int v91; // edx@1
+  unsigned int v92; // esi@1
+  unsigned int v93; // edx@1
+  unsigned int v94; // esi@1
+  unsigned int v95; // edx@1
+  unsigned int v96; // esi@1
+  unsigned int v97; // edx@1
+  unsigned int v98; // esi@1
+  unsigned int v99; // edx@1
+  unsigned int v100; // esi@1
+  unsigned int v101; // edx@1
+  unsigned int v102; // esi@1
+  unsigned int v103; // edx@1
+  unsigned int v104; // esi@1
+  unsigned int v105; // edx@1
+  unsigned int v106; // esi@1
+  unsigned int v107; // edx@1
+  unsigned int v108; // esi@1
+  unsigned int v109; // edx@1
+  unsigned int v110; // esi@1
+  unsigned int v111; // edx@1
+  unsigned int v112; // esi@1
+  unsigned int v113; // edx@1
+  unsigned int v114; // esi@1
+  unsigned int v115; // edx@1
+  unsigned int v116; // esi@1
+  unsigned int v117; // edx@1
+  unsigned int v118; // esi@1
+  unsigned int v119; // edx@1
+  unsigned int v120; // esi@1
+  unsigned int v121; // edx@1
+  unsigned int v122; // esi@1
+  unsigned int v123; // edx@1
+  int result; // eax@1
+
+  dword_404484 = 2126220979;
+  dword_404480 = -1196722682;
+  dword_40447C = -1979252743;
+  v0 = dword_405548 + ((dword_40554C + (16 * dword_40554C ^ ((unsigned int)dword_40554C >> 5))) ^ 0x9AACC69B);
+  dword_404478 = -257812888;
+  dword_404474 = -1775348988;
+  dword_404470 = 912541011;
+  dword_40446C = 67335584;
+  v1 = ((v0
+       + (16 * (dword_405548 + ((dword_40554C + (16 * dword_40554C ^ ((unsigned int)dword_40554C >> 5))) ^ 0x9AACC69B)) ^ ((dword_405548 + ((dword_40554C + (16 * dword_40554C ^ ((unsigned int)dword_40554C >> 5))) ^ 0x9AACC69B)) >> 5))) ^ 0x7886E0CF)
+     + dword_40554C;
+  dword_405528 = -1699952997;
+  dword_404468 = -374204838;
+  dword_404464 = 238714763;
+  dword_404460 = -188147201;
+  dword_40445C = -49908583;
+  v2 = ((v1 + (16 * v1 ^ (v1 >> 5))) ^ 0x8379E207) + v0;
+  dword_404458 = 677935422;
+  dword_404454 = -492575448;
+  dword_404450 = 2065586408;
+  dword_40444C = 424792968;
+  dword_40552C = -1985798774;
+  v3 = ((v2 + (16 * v2 ^ (v2 >> 5))) ^ 0x4054EE01) + v1;
+  dword_404448 = 1259012252;
+  dword_404444 = 850488014;
+  dword_404440 = 1259034206;
+  dword_40443C = 1259034561;
+  dword_404438 = 1259034574;
+  v4 = ((v3 + (16 * v3 ^ (v3 >> 5))) ^ 0x4B5AF482) + v2;
+  dword_404434 = 1259034416;
+  dword_404430 = -1561846390;
+  dword_40442C = 1259034206;
+  dword_404428 = 1259032902;
+  dword_405530 = -1515008740;
+  dword_404424 = 1526853376;
+  dword_404420 = 1002417;
+  dword_40441C = 1551952773;
+  dword_404418 = -1241325565;
+  dword_404414 = 1351592149;
+  dword_404410 = -973307593;
+  dword_40440C = 1140398531;
+  dword_404408 = -659914008;
+  dword_405534 = -1331311020;
+  dword_405584 = 0;
+  v5 = ((v4 + (16 * v4 ^ (v4 >> 5))) ^ 0x2922096D) + v3;
+  v6 = ((v5 + (16 * v5 ^ (v5 >> 5))) ^ 0x21F58A3) + v4;
+  v7 = ((v6 + (16 * v6 ^ (v6 >> 5))) ^ 0xD4F36C56) + v5;
+  v8 = ((v7 + (16 * v7 ^ (v7 >> 5))) ^ 0xE5FD1567) + v6;
+  v9 = ((v8 + (16 * v8 ^ (v8 >> 5))) ^ 0xB8D1291A) + v7;
+  v10 = ((v9 + (16 * v9 ^ (v9 >> 5))) ^ 0xCECA30D3) + v8;
+  v11 = ((v10 + (16 * v10 ^ (v10 >> 5))) ^ 0x96AB434E) + v9;
+  v12 = ((v11 + (16 * v11 ^ (v11 >> 5))) ^ 0x96AB434E) + v10;
+  v13 = ((v12 + (16 * v12 ^ (v12 >> 5))) ^ 0x4D6FA76F) + v11;
+  v14 = ((v13 + (16 * v13 ^ (v13 >> 5))) ^ 0x4D6FA76F) + v12;
+  v15 = ((v14 + (16 * v14 ^ (v14 >> 5))) ^ 0x47466BEC) + v13;
+  v16 = ((v15 + (16 * v15 ^ (v15 >> 5))) ^ 0x314D6433) + v14;
+  v17 = ((v16 + (16 * v16 ^ (v16 >> 5))) ^ 0xF277E67) + v15;
+  v18 = ((v17 + (16 * v17 ^ (v17 >> 5))) ^ 0x1A1A7F9F) + v16;
+  v19 = ((v18 + (16 * v18 ^ (v18 >> 5))) ^ 0xD6F58B99) + v17;
+  v20 = ((v19 + (16 * v19 ^ (v19 >> 5))) ^ 0xE1FB921A) + v18;
+  v21 = ((v20 + (16 * v20 ^ (v20 >> 5))) ^ 0xBFC2A705) + v19;
+  v22 = ((v21 + (16 * v21 ^ (v21 >> 5))) ^ 0x98BFF63B) + v20;
+  v23 = ((v22 + (16 * v22 ^ (v22 >> 5))) ^ 0x6B9409EE) + v21;
+  v24 = ((v23 + (16 * v23 ^ (v23 >> 5))) ^ 0x7C9DB2FF) + v22;
+  v25 = ((v24 + (16 * v24 ^ (v24 >> 5))) ^ 0x4F71C6B2) + v23;
+  v26 = ((v25 + (16 * v25 ^ (v25 >> 5))) ^ 0x656ACE6B) + v24;
+  v27 = ((v26 + (16 * v26 ^ (v26 >> 5))) ^ 0x2D4BE0E6) + v25;
+  v28 = ((v27 + (16 * v27 ^ (v27 >> 5))) ^ 0x2D4BE0E6) + v26;
+  v29 = ((v28 + (16 * v28 ^ (v28 >> 5))) ^ 0xF519EE18) + v27;
+  v30 = ((v29 + (16 * v29 ^ (v29 >> 5))) ^ 0xE4104507) + v28;
+  v31 = ((v30 + (16 * v30 ^ (v30 >> 5))) ^ 0xDDE70984) + v29;
+  v32 = ((v31 + (16 * v31 ^ (v31 >> 5))) ^ 0xC7EE01CB) + v30;
+  v33 = ((v32 + (16 * v32 ^ (v32 >> 5))) ^ 0x89B86C6D) + v31;
+  v34 = ((v33 + (16 * v33 ^ (v33 >> 5))) ^ 0xB0BB1D37) + v32;
+  v35 = ((v34 + (16 * v34 ^ (v34 >> 5))) ^ 0x6D962931) + v33;
+  v36 = ((v35 + (16 * v35 ^ (v35 >> 5))) ^ 0x789C2FB2) + v34;
+  v37 = ((v36 + (16 * v36 ^ (v36 >> 5))) ^ 0x4B704365) + v35;
+  v38 = ((v37 + (16 * v37 ^ (v37 >> 5))) ^ 0x2F6093D3) + v36;
+  v39 = ((v38 + (16 * v38 ^ (v38 >> 5))) ^ 0x234A786) + v37;
+  v40 = ((v39 + (16 * v39 ^ (v39 >> 5))) ^ 0x133E5097) + v38;
+  v41 = ((v40 + (16 * v40 ^ (v40 >> 5))) ^ 0xFC0B6C03) + v39;
+  v42 = ((v41 + (16 * v41 ^ (v41 >> 5))) ^ 0xFC0B6C03) + v40;
+  v43 = ((v42 + (16 * v42 ^ (v42 >> 5))) ^ 0xC3EC7E7E) + v41;
+  v44 = ((v43 + (16 * v43 ^ (v43 >> 5))) ^ 0xC3EC7E7E) + v42;
+  v45 = ((v44 + (16 * v44 ^ (v44 >> 5))) ^ 0x8BBA8BB0) + v43;
+  v46 = ((v45 + (16 * v45 ^ (v45 >> 5))) ^ 0x7AB0E29F) + v44;
+  v47 = ((v46 + (16 * v46 ^ (v46 >> 5))) ^ 0x7487A71C) + v45;
+  v48 = ((v47 + (16 * v47 ^ (v47 >> 5))) ^ 0x5E8E9F63) + v46;
+  v49 = ((v48 + (16 * v48 ^ (v48 >> 5))) ^ 0x20590A05) + v47;
+  v50 = ((v49 + (16 * v49 ^ (v49 >> 5))) ^ 0x475BBACF) + v48;
+  v51 = ((v50 + (16 * v50 ^ (v50 >> 5))) ^ 0x436C6C9) + v49;
+  v52 = ((v51 + (16 * v51 ^ (v51 >> 5))) ^ 0xF3CCD4A) + v50;
+  v53 = ((v52 + (16 * v52 ^ (v52 >> 5))) ^ 0xE210E0FD) + v51;
+  v54 = ((v53 + (16 * v53 ^ (v53 >> 5))) ^ 0xC601316B) + v52;
+  v55 = ((v54 + (16 * v54 ^ (v54 >> 5))) ^ 0xA9DEEE2F) + v53;
+  v56 = ((v55 + (16 * v55 ^ (v55 >> 5))) ^ 0xA9DEEE2F) + v54;
+  v57 = ((v56 + (16 * v56 ^ (v56 >> 5))) ^ 0x92AC099B) + v55;
+  v58 = ((v57 + (16 * v57 ^ (v57 >> 5))) ^ 0x92AC099B) + v56;
+  v59 = ((v58 + (16 * v58 ^ (v58 >> 5))) ^ 0x3E7D6C84) + v57;
+  v60 = ((v59 + (16 * v59 ^ (v59 >> 5))) ^ 0x5A8D1C16) + v58;
+  v61 = ((v60 + (16 * v60 ^ (v60 >> 5))) ^ 0x225B2948) + v59;
+  v62 = ((v61 + (16 * v61 ^ (v61 >> 5))) ^ 0x11518037) + v60;
+  v63 = ((v62 + (16 * v62 ^ (v62 >> 5))) ^ 0x35437C) + v61;
+  v64 = ((v63 + (16 * v63 ^ (v63 >> 5))) ^ 0xF52F3CFB) + v62;
+  v65 = ((v64 + (16 * v64 ^ (v64 >> 5))) ^ 0xB6F9A79D) + v63;
+  v66 = ((v65 + (16 * v65 ^ (v65 >> 5))) ^ 0xDDFC5867) + v64;
+  v67 = ((v66 + (16 * v66 ^ (v66 >> 5))) ^ 0xB0D06C1A) + v65;
+  v68 = ((v67 + (16 * v67 ^ (v67 >> 5))) ^ 0xA5DD6AE2) + v66;
+  v69 = ((v68 + (16 * v68 ^ (v68 >> 5))) ^ 0x78B17E95) + v67;
+  v70 = ((v69 + (16 * v69 ^ (v69 >> 5))) ^ 0x5CA1CF03) + v68;
+  v71 = ((v70 + (16 * v70 ^ (v70 >> 5))) ^ 0x407F8BC7) + v69;
+  v72 = ((v71 + (16 * v71 ^ (v71 >> 5))) ^ 0x407F8BC7) + v70;
+  v73 = ((v72 + (16 * v72 ^ (v72 >> 5))) ^ 0x294CA733) + v71;
+  v74 = ((v73 + (16 * v73 ^ (v73 >> 5))) ^ 0x294CA733) + v72;
+  v75 = ((v74 + (16 * v74 ^ (v74 >> 5))) ^ 0xD51E0A1C) + v73;
+  v76 = ((v75 + (16 * v75 ^ (v75 >> 5))) ^ 0xF12DB9AE) + v74;
+  v77 = ((v76 + (16 * v76 ^ (v76 >> 5))) ^ 0xB8FBC6E0) + v75;
+  v78 = ((v77 + (16 * v77 ^ (v77 >> 5))) ^ 0xA7F21DCF) + v76;
+  v79 = ((v78 + (16 * v78 ^ (v78 >> 5))) ^ 0x96D5E114) + v77;
+  v80 = ((v79 + (16 * v79 ^ (v79 >> 5))) ^ 0x8BCFDA93) + v78;
+  v81 = ((v80 + (16 * v80 ^ (v80 >> 5))) ^ 0x5EA3EE46) + v79;
+  v82 = ((v81 + (16 * v81 ^ (v81 >> 5))) ^ 0x749CF5FF) + v80;
+  v83 = ((v82 + (16 * v82 ^ (v82 >> 5))) ^ 0x477109B2) + v81;
+  v84 = ((v83 + (16 * v83 ^ (v83 >> 5))) ^ 0x3C7E087A) + v82;
+  v85 = ((v84 + (16 * v84 ^ (v84 >> 5))) ^ 0xF3426C9B) + v83;
+  v86 = ((v85 + (16 * v85 ^ (v85 >> 5))) ^ 0xF3426C9B) + v84;
+  v87 = ((v86 + (16 * v86 ^ (v86 >> 5))) ^ 0xD720295F) + v85;
+  v88 = ((v87 + (16 * v87 ^ (v87 >> 5))) ^ 0xD720295F) + v86;
+  v89 = ((v88 + (16 * v88 ^ (v88 >> 5))) ^ 0xB4FA4393) + v87;
+  v90 = ((v89 + (16 * v89 ^ (v89 >> 5))) ^ 0xBFED44CB) + v88;
+  v91 = ((v90 + (16 * v90 ^ (v90 >> 5))) ^ 0x6BBEA7B4) + v89;
+  v92 = ((v91 + (16 * v91 ^ (v91 >> 5))) ^ 0x87CE5746) + v90;
+  v93 = ((v92 + (16 * v92 ^ (v92 >> 5))) ^ 0x65956C31) + v91;
+  v94 = ((v93 + (16 * v93 ^ (v93 >> 5))) ^ 0x3E92BB67) + v92;
+  v95 = ((v94 + (16 * v94 ^ (v94 >> 5))) ^ 0x2D767EAC) + v93;
+  v96 = ((v95 + (16 * v95 ^ (v95 >> 5))) ^ 0x2270782B) + v94;
+  v97 = ((v96 + (16 * v96 ^ (v96 >> 5))) ^ 0xF5448BDE) + v95;
+  v98 = ((v97 + (16 * v97 ^ (v97 >> 5))) ^ 0xB3D9397) + v96;
+  v99 = ((v98 + (16 * v98 ^ (v98 >> 5))) ^ 0xDE11A74A) + v97;
+  v100 = ((v99 + (16 * v99 ^ (v99 >> 5))) ^ 0xD31EA612) + v98;
+  v101 = ((v100 + (16 * v100 ^ (v100 >> 5))) ^ 0x89E30A33) + v99;
+  v102 = ((v101 + (16 * v101 ^ (v101 >> 5))) ^ 0x89E30A33) + v100;
+  v103 = ((v102 + (16 * v102 ^ (v102 >> 5))) ^ 0x6DC0C6F7) + v101;
+  v104 = ((v103 + (16 * v103 ^ (v103 >> 5))) ^ 0x6DC0C6F7) + v102;
+  v105 = ((v104 + (16 * v104 ^ (v104 >> 5))) ^ 0x4B9AE12B) + v103;
+  v106 = ((v105 + (16 * v105 ^ (v105 >> 5))) ^ 0x568DE263) + v104;
+  v107 = ((v106 + (16 * v106 ^ (v106 >> 5))) ^ 0x1368EE5D) + v105;
+  v108 = ((v107 + (16 * v107 ^ (v107 >> 5))) ^ 0x1E6EF4DE) + v106;
+  v109 = ((v108 + (16 * v108 ^ (v108 >> 5))) ^ 0xFC3609C9) + v107;
+  v110 = ((v109 + (16 * v109 ^ (v109 >> 5))) ^ 0xD53358FF) + v108;
+  v111 = ((v110 + (16 * v110 ^ (v110 >> 5))) ^ 0xA8076CB2) + v109;
+  v112 = ((v111 + (16 * v111 ^ (v111 >> 5))) ^ 0xB91115C3) + v110;
+  v113 = ((v112 + (16 * v112 ^ (v112 >> 5))) ^ 0x8BE52976) + v111;
+  v114 = ((v113 + (16 * v113 ^ (v113 >> 5))) ^ 0xA1DE312F) + v112;
+  v115 = ((v114 + (16 * v114 ^ (v114 >> 5))) ^ 0x69BF43AA) + v113;
+  dword_40557C = -500115187;
+  dword_405580 = 63;
+  v116 = ((v115 + (16 * v115 ^ (v115 >> 5))) ^ 0x69BF43AA) + v114;
+  dword_405598 = 0;
+  v117 = ((v116 + (16 * v116 ^ (v116 >> 5))) ^ 0x2083A7CB) + v115;
+  v118 = ((v117 + (16 * v117 ^ (v117 >> 5))) ^ 0x2083A7CB) + v116;
+  v119 = ((v118 + (16 * v118 ^ (v118 >> 5))) ^ 0x1A5A6C48) + v117;
+  v120 = ((v119 + (16 * v119 ^ (v119 >> 5))) ^ 0x461648F) + v118;
+  v121 = ((v120 + (16 * v120 ^ (v120 >> 5))) ^ 0xE23B7EC3) + v119;
+  v122 = ((v121 + (16 * v121 ^ (v121 >> 5))) ^ 0xED2E7FFB) + v120;
+  v123 = ((v122 + (16 * v122 ^ (v122 >> 5))) ^ 0xAA098BF5) + v121;
+  dword_405574 = ((v123 + (16 * v123 ^ (v123 >> 5))) ^ 0xB50F9276) + v122;
+  dword_405578 = ((dword_405574 + (16 * dword_405574 ^ ((unsigned int)dword_405574 >> 5))) ^ 0x92D6A761) + v123;
+  dword_40448C = ((dword_405574 + (16 * dword_405574 ^ ((unsigned int)dword_405574 >> 5))) ^ 0x92D6A761) + v123;
+  dword_404488 = 4;
+  dword_40556C = -500115187;
+  dword_405570 = 0;
+  dword_405568 = -1985798774;
+  dword_40558C = 1809053335;
+  dword_405588 = (dword_405578 + (16 * dword_405578 ^ ((unsigned int)dword_405578 >> 5))) ^ 0x6BD3F697;
+  result = dword_405588 + dword_405574;
+  if ( dword_405588 + dword_405574 == 656937962 )
+    result = printf("WORKS!\n");
+  return result;
+}

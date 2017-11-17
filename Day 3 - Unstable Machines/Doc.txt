@@ -1,0 +1,84 @@
+1. Click on the bitmap to enable Checkboxes and click in given direction
+
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+5, 4, 6, 2, 7, 4, 1, 3, 1, 7,  3
+
+=> 
+.data:00416614 Encoded_LUM db 'LUM{2KREDvn3OPf}',0Ah,0 
+LUM{2KREDvn3OPf}
+
+
+2. Textinput will come up 
+Text is : GOLDFIST at the beginning
+
+VM:
+8 VM Register Bit 31:29
+Const : 28:0
+
+0055B340 - 0055A328
+
+0055A328 + 0x400
+
+VMStream:
+debug017:0055A2F8 VMStream_1 db 85h                       ; DATA XREF: .data:VM_Stream_Ptro
+debug017:0055A2F8                                         ; Header
+debug017:0055A2F9 db 0F0h ; ­
+debug017:0055A2FA db 0ADh ; ¡
+debug017:0055A2FB db 0BAh ; ¦
+debug017:0055A2FC dd offset VMMemory
+debug017:0055A300 dd 1024                                 ; VMMemorySize
+debug017:0055A304 dd offset VMOpcode
+debug017:0055A308 dd offset unk_55B340                    ; NextVMStream
+debug017:0055A30C dd 0ABABABABh
+debug017:0055A310 dd 0ABABABABh
+debug017:0055A314 dd 0FEEEFEEEh
+debug017:0055A318 dd 0
+debug017:0055A31C dd 0
+debug017:0055A320 dd 5A1B04B1h
+debug017:0055A324 dd 1800B2AAh
+debug017:0055A328 VMOpcode db 0E8h                        ; DATA XREF: debug017:0055A304o
+
+
+break on vmh3->OpcodePtr + 0x100C <= should be 0B0A5CE54h at Unknown_Reg_Reg
+
+ROP VM_Opcode8:
+.text:00401D15 pop     esi
+.text:00401D16 add     eax, esi <= eax = result | check esi (0xE9A356C1)
+.text:00401D18 retn
+
+.text:00401C7B xor     eax, ebx <= check ebx (0xFFFEFFFF)
+.text:00401C7D retn
+
+.text:00401C85 ror     eax, 2Ah
+.text:00401C88 retn
+
+.text:00401C8A sub     eax, ebx <= check ebx (0xFFFEFFFF)
+.text:00401C8C retn 
+
+.text:00401D15 pop     esi <= check esi(0x79FA2185)
+.text:00401D16 add     eax, esi
+.text:00401D18 retn
+
+.text:00404BD7 push    ecx (0x00401F7B)
+.text:00404BD8 retn
+
+
+//Hidden LUM in the ROP :DATA
+LUM{+zhVQqJy03q}
+LUM{2KREDvn3OPf}
+
+737D2F1BB13734C320843C36874A2451B2473D32C6B36271EB71351E493E71FC
+50C7C9821F0A06BD5E42C03493F10F6897FF43E44A18BFAF67BB495B3F25BCD5
+
+
+YES:::
+The real key after defeating anti debug!!!!
+3f691f3d6eb60b343c931c22e0baa92f
+
+Key dont let him escape
+2d4ceda2fa2a0e08fc360b55291de7c9
+
+Riscy Zones:
+5921cd9fd3a82bd9244ece5328c6c95f
+
+deQRypt(ae688b6624692cece805baacd25bd81e52fc3c8ff3d6d2228caa6e29068b3ab54c973); 
